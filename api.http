@@ -1,0 +1,9 @@
+@server=http//localhost:8000
+
+POST {{server}}/api/users
+Content-Type: application/json; charset-UTF-8
+
+{
+  "username": "damon",
+  "email": "damon@codingon.com"
+}
